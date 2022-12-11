@@ -16,7 +16,9 @@ Make the necessary changes in `config.json.example` and save as `config.json` in
     "password": "<YOUR_PASSWORD>"
 }
 ```
-Save this in `config.json` in current working directory, in `$XDG_CONFIG_HOME/revChatGPT/config.json`, or in `$HOME/revChatGPT/config.json`.
+Save and rename the file to `config.json` in current working directory, in `$XDG_CONFIG_HOME/revChatGPT/config.json`, or in `$HOME/revChatGPT/config.json`.
+
+You can now proceed to [Step 2 - CLI Usage](https://github.com/acheong08/ChatGPT/wiki/CLI-use)
 
 </details>
 
@@ -24,7 +26,7 @@ Save this in `config.json` in current working directory, in `$XDG_CONFIG_HOME/re
 <summary>
 
 ## Session Token Authentication
-Use if using third-party providers (Google / Microsoft Auth) or if email/password rate limited
+Use this method if using third-party providers (Google / Microsoft Auth) or if the email/password method is rate limited
 </summary>
 
 Go to https://chat.openai.com/chat and log in or sign up
@@ -41,7 +43,7 @@ Go to https://chat.openai.com/chat and log in or sign up
     "session_token": "<YOUR_TOKEN>"
 }
 ```
-Do not put email/password as that overrides tokens
+Do not put email/password as that override tokens
 
 </details>
 
